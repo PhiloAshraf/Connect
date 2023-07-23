@@ -5,7 +5,6 @@
 
 body
 {
-    position: relative;
     margin: 0;
     padding: 0;
     height: 100svh;
@@ -33,7 +32,6 @@ a
         font-size: 1.1em;
         display: inline-block;
         padding: 2.3em 2em 0em 1em;
-        position: relative;
     }
     .nav-container a
     {
@@ -92,3 +90,34 @@ footer
     padding-right: 2em;
     text-align: right;
 }
+
+
+.contact-us
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: 90%;
+    background-image: url(../img/co.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+
+.contact-us .container
+{
+    background-color: aqua;
+    padding: 1em 2em;
+    align-self: center;
+    font-size: 4em;
+    text-transform: uppercase;
+    text-emphasis: bold;
+    color: white;
+    position: absolute;
+}
+
+.contact-us .call-us
+{
+    background-color: teal;
+    align-self: right;
+}
+
